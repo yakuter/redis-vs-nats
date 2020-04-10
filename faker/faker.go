@@ -3,9 +3,9 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"icssight/messaging/model"
 	"io/ioutil"
 	"os"
+	"redis-vs-nats/model"
 
 	"github.com/bxcodec/faker"
 )

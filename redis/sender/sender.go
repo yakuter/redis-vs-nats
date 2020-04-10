@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/json"
-	"icssight/messaging/model"
 	"log"
 	"os"
+	"redis-vs-nats/model"
 	"time"
 
 	"github.com/go-redis/redis"

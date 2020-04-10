@@ -6,7 +6,6 @@ Redis server - https://redis.io/
 Nats server - https://nats.io/download/nats-io/nats-server/  
 NATS streaming server - https://nats.io/download/nats-io/nats-streaming-server/
 
-
 ## FOLDERS
 ### faker
 With faker, the user can generate json files with fake messages. Usage:
@@ -32,8 +31,8 @@ These folders have same structure. They all have a sender and a receiver. The te
 2. Go into receiver folder of the test and run receiver with `go run receiver.go`
 3. Go into sender folder of the test and run sender with `go run sender.go`
 
-### monitoring
-#### Nats
+## MONITORING
+### Nats
 NATS has a great tool for monioring called `nats-top` which is a `top`-like tool for monitoring NATS servers.
 https://github.com/nats-io/nats-top
 
@@ -54,10 +53,10 @@ Connections: 10
   127.0.0.1:57490      16     example     1       12.0K       161.6K    0           484.7K      0           go       1.1.7    17s      2016-02-09 00:13:24.753057413 -0800 PST
 ```
 
-#### Redis
+### Redis
 Unfortunately, couldn't find a useful tool like nats-top. If you know any, I would like to hear.
 
-### My Test Results
+## my results
 
 **File**: 100k.json | 100.000 JSON messages | 108mb
 

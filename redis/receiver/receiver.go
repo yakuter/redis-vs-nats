@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"icssight/messaging/model"
+	"redis-vs-nats/model"
 	"sync"
 
 	"github.com/go-redis/redis"

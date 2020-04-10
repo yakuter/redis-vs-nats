@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"icssight/messaging/model"
 	"log"
+	"redis-vs-nats/model"
 	"sync"
 
 	"github.com/nats-io/nats.go"
