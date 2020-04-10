@@ -34,6 +34,9 @@ drwxr-xr-x  11 yakuter  staff   352B Apr 10 10:53 ..
 -rw-r--r--   1 yakuter  staff    11M Apr 10 10:47 10k.json
 -rw-r--r--   1 yakuter  staff   1.1M Apr 10 10:47 1k.json
 ```
+### model
+This folder contains the struct for message. The Message struct has faker tags to generate meaningful dummy content like IP address etc.
+
 ### redis, nats and nats-streaming
 These folders have same structure. They all have a sender and a receiver. The test steps are below. The order is important!
 
