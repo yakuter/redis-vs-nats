@@ -2,8 +2,8 @@
 This repo is prepared to test the performance of nats and redis in pubsub messaging.
 
 ## PREQUISITES
-Redis server - https://redis.io/
-Nats server - https://nats.io/download/nats-io/nats-server/
+Redis server - https://redis.io/  
+Nats server - https://nats.io/download/nats-io/nats-server/  
 NATS streaming server - https://nats.io/download/nats-io/nats-streaming-server/
 
 
@@ -29,8 +29,8 @@ drwxr-xr-x  11 yakuter  staff   352B Apr 10 10:53 ..
 These folders have same structure. They all have a sender and a receiver. The test steps are below. The order is important!
 
 1. Start the relevant server according to the test (Redis, Nats or Nats Streaming Server).
-2. Go into receiver folder of the test and run receiver with **go run receiver.go**
-3. Go into sender folder of the test and run sender with **go run sender.go**
+2. Go into receiver folder of the test and run receiver with `go run receiver.go`
+3. Go into sender folder of the test and run sender with `go run sender.go`
 
 ### monitoring
 #### Nats
