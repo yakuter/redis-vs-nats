@@ -69,9 +69,13 @@ Connections: 10
 ### Redis
 Unfortunately, couldn't find a useful tool like nats-top. If you know any, I would like to hear.
 
-## my results
+## MY RESULTS
 
-**File**: 100k.json | 100.000 JSON messages | 108mb
-
+**File**: 100k.json | 100.000 JSON messages | 108mb  
 **NATS**:   6.207s  
-**REDIS**:  8.212s
+**REDIS**:  8.212s  
+  
+**File**: 10k.json | 10.000 JSON messages | 11mb  
+**NATS**:   623.52ms  
+**REDIS**:  785.28ms
+

@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
 	"redis-vs-nats/model"
 	"sync"
 
@@ -43,7 +42,6 @@ func worker() {
 	message := model.Message{}
 	for packet := range channel {
 		json.Unmarshal([]byte(packet.Payload), &message)
-		fmt.Println(message.Name)
 	}
 
 }
