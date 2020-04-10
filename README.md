@@ -7,6 +7,16 @@ Nats server - https://nats.io/download/nats-io/nats-server/
 NATS streaming server - https://nats.io/download/nats-io/nats-streaming-server/
 
 ## FOLDERS
+```sh
+➜  redis-vs-nats git:(master) ls -lah
+total 16
+drwxr-xr-x   3 yakuter  staff    96B Apr 10 10:47 faker
+drwxr-xr-x   5 yakuter  staff   160B Apr 10 10:47 json
+drwxr-xr-x   3 yakuter  staff    96B Apr  7 08:46 model
+drwxr-xr-x   4 yakuter  staff   128B Apr 10 10:50 nats
+drwxr-xr-x   4 yakuter  staff   128B Apr 10 10:52 nats-streaming-BETA
+drwxr-xr-x   4 yakuter  staff   128B Apr 10 10:50 redis
+```
 ### faker
 With faker, the user can generate json files with fake messages. Usage:
 ```go
